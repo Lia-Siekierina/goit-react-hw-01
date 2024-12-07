@@ -1,11 +1,14 @@
 .profile {
   border: 1px solid #ccc;
   border-radius: 10px;
-  width: 250px;
+
   text-align: center;
   background-color: #f3f3f3;
   margin: 10px auto;
   padding: 20px;
+  width: 250px;
+  margin: 0 auto;
+  /* padding: 70px 50px; */
 }
 
 .description {
@@ -39,12 +42,13 @@
 .stats {
   list-style: none;
   padding: 0;
-  width: 302px;
-  height: 100px;
+  width: 250px;
+  /* height: 100px; */
   background-color: gainsboro;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -53,8 +57,10 @@
 
 .stats li {
   display: flex;
-  justify-content: space-between;
-  padding: 10px;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  padding: 15px 0;
+  width: 82px;
   border-top: 1px solid #ccc;
 }
 
@@ -63,6 +69,8 @@
 }
 
 .quantity {
+  margin-top: 4px;
+  font-weight: 700;
   font-size: 16px;
   font-weight: bold;
 }
