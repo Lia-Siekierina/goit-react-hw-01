@@ -1,15 +1,11 @@
 .friendItem {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
+  width: 60px;
+  padding: 8px;
+  border: 1px solid black;
   border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-.avatar {
-  border-radius: 50%;
 }
 
 .name {
@@ -18,4 +14,11 @@
 
 .status {
   font-size: 14px;
+  margin-top: 5px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
 }
